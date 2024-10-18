@@ -1,2 +1,2 @@
 # Jovian-Careers-2
-Jovian careers jobs page
+A website to show job openings at Jovian and accept applications
