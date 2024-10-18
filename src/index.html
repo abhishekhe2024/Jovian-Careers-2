@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovin-Career</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="https://jovian.com/jovian_logo.svg" alt="jovian logo">
+    </div>
+    <img src="Career.jpg" alt="Career" height="250" width="100%" class="career">
+    <h1>About Jovian</h1>
+
+    <div class="about">
+        <div class="description">
+
+            <p class="paragraph">At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users.</p>
+            <!-- <p class="paragraph">Brenda never wanted to be famous. While most of her friends dreamed about being famous,
+                she
+                could see the negative aspects that those who wanted to be famous seemed to ignore. The fact that
+                you could never do anything in public without being mobbed and the complete lack of privacy was
+                something
+                that she never wanted to experience. She also had no desire to have strangers speculating about every
+                aspect of her life and what each thing she did was supposed to mean. Brenda was perfectly happy with her
+                anonymous life where she could do exactly as she wanted without anyone else giving a damn. Thus, her
+                overnight Internet celebrity was not something she was thrilled about as her friends told her how lucky
+                she was.</p> -->
+
+            <p style="margin-top: 60px;">We also offer 2 industry-focused bootcamps</p>
+            <ol>
+                <li>
+                    <a href="https://jovian.com/aakashns/full-stack-developer-bootcamp-roadmap" target="_blank">Jovian
+                        Full Stack Developer
+                        Bootcamp</a>
+                </li>
+                <li><a href="https://jovian.com/learn/zero-to-data-analyst-bootcamp" target="_blank">Jovian Data Science
+                        Bootcamp</a></li>
+            </ol>
+        </div>
+        <div class="team">
+            <img class="teamimage" src="Team.jpg" alt="Team">
+        </div>
+    </div>
+
+
+    <h2>Job Opprtunities</h2>
+
+    <div class="jobs">
+        <table class="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 03, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 01, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>San Frsncisco</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Aug 22, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000</td>
+                <td>Sep 19, 2024</td>
+            </tr>
+        </table>
+    </div>
+    <div class="application">
+
+        <h2 
+        >Submit Your Application</h2>
+
+        <form action="https://formbold.com/s/9x2AB"
+         method="POST" 
+         enctype="multipart/form-data"
+         class="application-form">
+
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Abhishek H E">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" required placeholder="abhishekhe18@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Contact Number</label><br>
+                <input type="tel" id="phone" name="Phone" required placeholder="+910000000000">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="DOB" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+                <select name="Position" id="position" required>
+                    <option value="">Select Position</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Resume</label><br>
+                <input type="file" id="resume" name="Resume" accept=".pdf, .doc, .docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cover-letter">Cover Letter</label><br>
+                <textarea name="Cover-Letter" id="cover-letter" rows="5" placeholder="Explain what makes you suitable for the job.." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                <input type="checkbox" id="terms" name="Terms" required>
+                I agree to the terms and conditions
+            </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+            
+
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <ul class="footer-links">
+            <li><a href="https://jovian.com/">Courses</a></li>
+            <li><a href="https://jovian.com/">Program</a></li>
+            <li><a href="https://jovian.com/">YouTube</a></li>
+        </ul>
+        <div class="copyright">© 2024, Jovian</div>
+    </div>
+
+</body>
+
+</html>
